@@ -1,3 +1,20 @@
+.naviimg{
+    object-fit: fill;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    background-color: black;
+}
+
+.uptext{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    width:fit-content;
+}
+
+
 #image{
   display: block;
   margin-top: 65px;
@@ -7,6 +24,15 @@
 }
 
 #textbox{
+
+    background-image: url("magnifier.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+
+
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -18,8 +44,8 @@
     border-width: 1px;
     padding-left: 20px;
     padding-right: 20px;
-
 }
+
 
 #btn{
     display: block;
@@ -54,3 +80,30 @@
 .translate{
     text-decoration: none;
 }
+
+/*
+.boto{
+    background-color: rgb(243, 242, 242);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid darkgrey;
+    padding-left: 5px;
+    padding-bottom: 10px;
+
+    font-size: 20px;
+    text-decoration-color: rgb(105, 104, 104);
+}
+
+.bottom{
+    background-color: rgb(243, 242, 242);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    border: 1px solid darkgrey;
+
+}
+
