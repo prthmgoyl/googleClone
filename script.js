@@ -12,7 +12,7 @@ firebase.initializeApp(firebaseConfig);
 
 var messageRef = firebase.database().ref('messages');
 
-document.getElementById('form').addEventListener('submit',submitForm);
+document.getElementById("form").addEventListener('submit',submitForm);
 
 function submitForm(e){
     e.preventDefault();
