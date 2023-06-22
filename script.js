@@ -17,7 +17,7 @@ document.getElementById('form').addEventListener('submit',submitForm);
 function submitForm(e){
     e.preventDefault();
 
-    var query = getInputVal('query')
+    var query = getInputVal("textbox")
 
     saveMessage(query);
 
