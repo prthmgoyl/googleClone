@@ -39,6 +39,6 @@ function getInputVal(id){
 function saveMessage(query){
     var newMessageRef = messageRef.push();
     newMessageRef.set({
-       query:query
+       query: query
     });
 }
