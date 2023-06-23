@@ -11,9 +11,9 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-var messageRef = firebase.database().ref('messages');
+var messageRef = firebase.database().ref("messages");
 
-document.getElementById("form").addEventListener('submit',submitForm);
+document.getElementById("form").addEventListener("submit",submitForm);
 
 function submitForm(e){
     e.preventDefault();
@@ -37,7 +37,7 @@ function getInputVal(id){
 }
 
 function saveMessage(query){
-    var newMessageRef = messageRef.push()
+    var newMessageRef = messageRef.push();
     newMessageRef.set({
        query:query
     });
