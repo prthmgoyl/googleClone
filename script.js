@@ -27,7 +27,7 @@ function submitForm(e){
     setTimeout(function(){
         document.querySelector('.alert').style.display  = 'none';
     },3000);
-    document.getElementById('form').reset();
+    document.getElementById("form").reset();
 
 
 }
